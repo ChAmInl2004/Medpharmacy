@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicare Shop</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Medicare Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cr.html">Consultation Reservation</a></li>
+        <li><a href="order.html">Pharmacy</a></li>
+        <li><a href="doc.html">Doctors</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>  
+  </header>
+
+  <main>
+    <section id="tags">
+      <button onclick="filterProducts('All')">All</button>
+      <button onclick="filterProducts('Analgesics')">Analgesics</button>
+      <button onclick="filterProducts('Antibiotics')">Antibiotics</button>
+      <button onclick="filterProducts('Antidepressants')">Antidepressants</button>
+      <button onclick="filterProducts('Antihistamines')">Antihistamines</button>
+      <button onclick="filterProducts('Antihypertensives')">Antihypertensives</button>
+    </section>
+
+    <section id="product-list" class="product-list"></section>
+
+    <div id="cart-container">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div class="cart-footer" style="display: none;">
+        <p><strong>Total:</strong> <span class="total-value">$0.00</span></p>
+        <button id="save-favorites" onclick="saveFavorites()" style="background-color: #00c2cb; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+          Save as Favorites
+        </button>
+        <button id="apply-favorites" onclick="applyFavorites()" style="background-color: #007f8b; color: white; border: none; padding: 10px; margin-top: 5px; width: 100%; cursor: pointer;">
+          Apply Favorites
+        </button>
+        <button onclick="redirectToCheckout()" style="background-color: #00c2cb; color: white; border: none; padding: 10px; margin-top: 5px; width: 100%; cursor: pointer;">
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+    
+  
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+      </div>
+      <div class="footer-center">
+  <script src="order.js"></script>
+</body>
+</html>

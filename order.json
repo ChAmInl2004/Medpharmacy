@@ -1,0 +1,40 @@
+{
+  "Analgesics": [
+      { "name": "TYLENOL", "price": 3, "image": "image/analgesic1.png" },
+      { "name": "ADVIL", "price": 5, "image": "image/analgesic2.png" },
+      { "name": "MOTRIN", "price": 4, "image": "image/analgesic3.png" },
+      { "name": "EXCEDRIN", "price": 6, "image": "image/analgesic4.png" },
+      { "name": "PANADOL", "price": 8, "image": "image/analgesic5.png" },
+      { "name": "TTRAMAL", "price": 10, "image": "image/analgesic6.png" }
+  ],
+  "Antibiotics": [
+      { "name": "AMOXICILLIN", "price": 7, "image": "image/antibiotic1.png" },
+      { "name": "CIPROFLOXACIN", "price": 8, "image": "image/antibiotic2.png" },
+      { "name": "AZITHROMYCIN", "price": 6, "image": "image/antibiotic3.jpeg" },
+      { "name": "DOXYCYCLIN", "price": 9, "image": "image/antibiotic4.png" },
+      { "name": "CLINDAMYCIN", "price": 7, "image": "image/antibiotic5.png" },
+      { "name": "FLUONING", "price": 8, "image": "image/antibiotic6.png" }
+  ],
+  "Antidepressants": [
+      { "name": "FLUOXETINE HCL", "price": 12, "image": "image/antidepressant1.png" },
+      { "name": "CITALOPRAM", "price": 10, "image": "image/antidepressant2.png" },
+      { "name": "SERTRALINE", "price": 11, "image": "image/antidepressant3.png" },
+      { "name": "PARAXYL", "price": 13, "image": "image/antidepressant4.png" },
+      { "name": "ESCITALOPRAM", "price": 15, "image": "image/antidepressant5.png" },
+      { "name": "EFEXOR", "price": 10, "image": "image/antidepressant6.png" }
+  ],
+  "Antihistamines": [
+      { "name": "BENADRYL", "price": 5, "image": "image/antihistamine1.png" },
+      { "name": "CALRITIN", "price": 4, "image": "image/antihistamine2.png" },
+      { "name": "ALLEFRA", "price": 6, "image": "image/antihistamine3.png" },
+      { "name": "CETRIZINE", "price": 3, "image": "image/antihistamine4.png" }
+  ],
+  "Antihypertensives": [
+      { "name": "LISNOPRL", "price": 8, "image": "image/antihypertensive1.png" },
+      { "name": "AMLODPINE", "price": 10, "image": "image/antihypertensive2.png" },
+      { "name": "VEZTENOR", "price": 9, "image": "image/antihypertensive3.png" },
+      { "name": "HYDROCHLOROTHIAZ", "price": 11, "image": "image/antihypertensive4.png" },
+      { "name": "ENALAPRIL CALOX", "price": 12, "image": "image/antihypertensive5.png" },
+      { "name": "METROPROLOL", "price": 7, "image": "image/antihypertensive6.png" }
+  ]
+}

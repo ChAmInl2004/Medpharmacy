@@ -1,0 +1,35 @@
+main {
+    padding: 20px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    background-color: #dd0f0f;
+    padding: 14px;
+    padding-right: 900px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+}
+.txtpharma{
+    position: relative;
+    left: 380px;
+    bottom: 180px;
+    width: 400px;
+}
+#txtadjust{
+    font-weight: 500;
+    font-size: larger;
+}
